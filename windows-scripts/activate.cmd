@@ -1,0 +1,1 @@
+slmgr.vbs /ipk KJ2QN-HRWHR-6YH82-GQ26X-YDWWR
