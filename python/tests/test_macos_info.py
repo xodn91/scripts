@@ -38,6 +38,19 @@ class Test__add_a_and_b_then_subtract_c(unittest.TestCase):
 
         self.assertEqual(output, 0)
 
+class Test__get_ip_address(unittest.TestCase):
+    def test_gather_a_ip_address(self):
+
+      output = macos_info.get_ip_address()
+      # change ip address if running on local machine to pass test
+      self.assertEqual(output, '127.0.0.1' )
+
+class Test__get_computer_name(unittest.TestCase):
+    def test_returns_a_computer_name(self):
+
+      output = macos_info.get_computer_name()
+
+      self.assertEqual(output, 'Eriks-MacBook-Pro.local')
 
 if __name__ == '__main__':
     unittest.main()

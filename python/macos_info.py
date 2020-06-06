@@ -51,8 +51,14 @@ five attributes:
 user_info = os.uname()
 
 computer_name = user_info[1]
+def get_computer_name():
+    computer_name = user_info[1]
+    return computer_name
 
-ip_address = socket.gethostbyname(socket.gethostname())
+
+def get_ip_address():
+    ip_address = socket.gethostbyname(socket.gethostname())
+    return ip_address
 
 uptime = subprocess.Popen("uptime")
 
@@ -73,9 +79,7 @@ print(os_version)
 '''
 
 def main():
-    '''
-    Entry point function.
-    '''
+    pass
 
 if __name__ == '__main__':
     main()
