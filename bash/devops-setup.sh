@@ -1,5 +1,7 @@
 # Install Homebrew
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+curl -s -L https://raw.githubusercontent.com/alfonsoh/scripts/master/bash/install-brew.sh | bash
+# Intall wget
+brew install wget
 # Install Cask
 brew install caskroom/cask/brew-cask
 # Install docker toolbox
