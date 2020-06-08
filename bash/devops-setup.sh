@@ -16,4 +16,6 @@ python get-pip.py
 brew install kubectl
 # Cask Install VM
 brew cask install virtualbox
+# Cask Install metasploit & nmap
+brew cask install metasploit
 
