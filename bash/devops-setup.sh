@@ -3,7 +3,7 @@ curl -s -L https://raw.githubusercontent.com/alfonsoh/scripts/master/bash/instal
 # Intall wget
 brew install wget
 # Install Cask
-brew install caskroom/cask/brew-cask
+brew tap caskroom/cask
 # Install docker toolbox
 brew cask install docker-toolbox
 #Install Python3
