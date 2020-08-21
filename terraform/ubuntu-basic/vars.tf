@@ -20,11 +20,11 @@ variable "AMIS" {
 }
 
 variable "PATH_TO_PRIVATE_KEY" {
-  default = "mykey"
+  default = "~/Downloads/secure/mykey"
 }
 
 variable "PATH_TO_PUBLIC_KEY" {
-  default = "mykey.pub"
+  default = "~/Downloads/secure/mykey.pub"
 }
 
 variable "INSTANCE_USERNAME" {
