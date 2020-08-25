@@ -1,0 +1,1 @@
+docker run -d --name=wsusoffline -v c:\client-updates:/client -e SYSTEMS="w100-x64" -e OFFICE="o2k16-x64" -e LANGUAGE="enu" -e PARAMS="-includesp -includecpp -includedotnet -includewddefs8" -e ISO=no -e SLEEP=48h -e DOWNLOADERS="aria2c wget" r0gger/docker-wsusoffline
