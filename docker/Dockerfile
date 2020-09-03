@@ -3,5 +3,7 @@ RUN apt update
 RUN apt install apache2 -y
 COPY 000-default.conf /etc/apache2/sites-enabled
 COPY .htaccess /wsus/wsusoffline/client
-RUN /etc/init.d/apache2 start
+COPY startweb.sh
+RUN chmod +x startweb.sh
+RUN startweb.sh
 EXPOSE 80
