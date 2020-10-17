@@ -14,6 +14,8 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python get-pip.py
 # Install tldr
 brew install tldr
+# install MTR
+brew install MTR
 # Install kubernates
 brew install kubectl
 # Cask Install VM
