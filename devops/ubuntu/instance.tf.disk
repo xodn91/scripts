@@ -1,0 +1,12 @@
+resource "aws_instance" "benson-test" {
+  ami           = var.AMIS[var.AWS_REGION]
+  instance_type = "t2.micro"
+  key_name = "100x-IT"
+tags = {
+    Name = "Terraform IT Instance"
+  }
+root_block_device {
+    volume_size = "100"
+  }
+}
+

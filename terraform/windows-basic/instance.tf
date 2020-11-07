@@ -5,5 +5,5 @@ resource "aws_key_pair" "id_rsa" {
 
 resource "aws_instance" "AD_JAMF" {
   ami           = var.AMIS[var.AWS_REGION]
-  instance_type = "t2.large"
+  instance_type = "t2.micro"
 }

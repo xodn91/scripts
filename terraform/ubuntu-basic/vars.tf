@@ -20,7 +20,7 @@ variable "AMIS" {
 }
 
 variable "PATH_TO_PRIVATE_KEY" {
-  default = "~/Downloads/secure/mykey"
+  default = "~/Downloads/secure/mykey2"
 }
 
 variable "PATH_TO_PUBLIC_KEY" {
