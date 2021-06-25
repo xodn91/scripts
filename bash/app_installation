@@ -1,0 +1,31 @@
+#!/bin/bash
+
+#updating sotware packages
+sudo apt-get update & sudo apt-get upgrade
+
+#installing apache
+sudo apt-get install apache2
+
+#installing NMAP
+sudo apt-get install namp
+
+#installing MySQL
+sudo apt install mysql-server
+
+#installing MongoDB
+sudo apt install -y mongodb
+
+#installing Postgres
+sudo apt install postgresql postgresql-contrib
+
+#installing MTR
+sudo apt-get -y install mtr
+
+#installing Python
+sudo apt-get install python
+
+#installing Docker
+sudo apt install docker.io
+
+#installing Terraform
+
